@@ -1,0 +1,12 @@
+Assign all surrounding tiles to yourself
+Select a tile to assign to yourself
+All of your tiles cannot be reassigned during the next turn
+Assign all tiles to yourself in the direction you are facing
+Select a tile to obstruct player movement until the end of this turn cycle
+Unassign all surrounding tiles
+Give an extra step to yourself this turn
+Select a player to skip their next turn
+Select a player to return to their starting point
+Return to your starting point
+Select any tile on the board to move to
+Select a player to swap places with

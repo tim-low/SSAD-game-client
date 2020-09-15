@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: dec697050c65c2c4fa2816f6832a1db9
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Fenton
+  fontNames:
+  - Fenton
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: be51d174439956949ba15cb6e3e08b66, type: 3}
+  - {fileID: 12800000, guid: 696f6545db35de540b4a8188b5b1e082, type: 3}
+  - {fileID: 12800000, guid: 3ac3ded9a7bbfdf4dba7522e47545c62, type: 3}
+  - {fileID: 12800000, guid: 018f2e4c0c3719d4b95f1e8232570259, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Loading.unity
+    guid: 3b923644e3e9a1e4a88e74225f0dc311
+  - enabled: 1
+    path: Assets/Scenes/MenuScreens.unity
+    guid: 382dd40bd27e63844b09a7d3694a3d65
+  - enabled: 1
+    path: Assets/Scenes/CharacterCustomization.unity
+    guid: ada42c19572ff3f4aa589421bebf48f6
+  - enabled: 1
+    path: Assets/Scenes/CharacterStatsScreen.unity
+    guid: 51f247f949cdd2f4d899c8e43adbffbf
+  - enabled: 1
+    path: Assets/Scenes/WorldSelect.unity
+    guid: 9d61a84acc5f81f49a9e665dce694085
+  - enabled: 1
+    path: Assets/Gameplay/GameSession.unity
+    guid: da02903db98a25f449bf15ff277f2ba9
+  - enabled: 1
+    path: Assets/Scenes/Leaderboard Scene/LeaderboardScene.unity
+    guid: 067c38fd190b30d48b40253d6d0c7e53
+  - enabled: 1
+    path: Assets/Scenes/RoomOverworlds/RoomWorld1.unity
+    guid: 39fad4b407a5e2744a2960bed4e19572
+  - enabled: 1
+    path: Assets/Scenes/RoomOverworlds/RoomWorld2.unity
+    guid: ff6d67e32a245df4888722e7de7dc72d
+  - enabled: 1
+    path: Assets/Scenes/RoomOverworlds/RoomWorld3.unity
+    guid: 126d2a8627a797345b3ce9c5b6e2fd01
+  - enabled: 1
+    path: Assets/Scenes/RoomOverworlds/RoomWorld4.unity
+    guid: b8f2b8ee0a44fc14eb999709772ba0f3
+  - enabled: 1
+    path: Assets/Scenes/RoomOverworlds/RoomWorld5.unity
+    guid: a4439af3c42198440b0f11cde0e721f4
+  - enabled: 1
+    path: Assets/Scenes/RoomOverworlds/RoomWorld6.unity
+    guid: eb037f76ea8549b4f81aeee6f4fe99d4
+  - enabled: 1
+    path: Assets/Scenes/Gacha.unity
+    guid: 17be1b8116fd836459e3ff22e3ccb7e5
+  - enabled: 1
+    path: Assets/TeacherApp/Scenes/LoginScene0.unity
+    guid: 834eae643990c614987a8d3c13cfea14
+  - enabled: 1
+    path: Assets/TeacherApp/Scenes/MainMenuScene1.unity
+    guid: 855b3bc8e63b1194fbf901ca21084e5b
+  - enabled: 1
+    path: Assets/TeacherApp/Scenes/CreateNewQuizScene2.unity
+    guid: 5f6666b51f6c63147aa4acb6c250f123
+  - enabled: 1
+    path: Assets/TeacherApp/Scenes/CreateNewQnScene3.unity
+    guid: e87c29976a51b9e48a52617006e159df
+  - enabled: 1
+    path: Assets/TeacherApp/Scenes/HostCustomQuizScene4.unity
+    guid: 8e7aa6fe60292a64da3ad6a4ddc441f9
+  - enabled: 1
+    path: Assets/TeacherApp/Scenes/HostWaitingPage5.unity
+    guid: b30f0a00de8fd384a8dee5c86f471416
+  - enabled: 1
+    path: Assets/TeacherApp/Scenes/SignUpScene9.unity
+    guid: 552f8d1349515374d86b696fc8f4119a
+  - enabled: 1
+    path: Assets/TeacherApp/Scenes/AddqnScene10.unity
+    guid: 61328ba6b21643b4493e29b2842fc421
+  - enabled: 1
+    path: Assets/TeacherApp/Scenes/StatsScene.unity
+    guid: 72056c0f9eae91e479871e4e4f2db7c9
+  - enabled: 1
+    path: Assets/TeacherApp/Scenes/StatsScene2.unity
+    guid: 6712943c53b64244183bf1c4b94c59c5

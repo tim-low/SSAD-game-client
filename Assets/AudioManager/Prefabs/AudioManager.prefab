@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &114688
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 480208}
+  - component: {fileID: 114382050292535076}
+  - component: {fileID: 114656159491177330}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &480208
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114688}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 114688}
+  m_IsPrefabParent: 1
+--- !u!114 &114382050292535076
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dee3db868d0df624eb3adc9ccbd0980c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SFXPrefab: {fileID: 82165802353332802, guid: c44869d9f11bf7b40b015f1336a3f6c6, type: 2}
+  musicPlayerPrefab: {fileID: 82520831394873390, guid: 66ef62cf7fdbaae4292edeefad29ab46,
+    type: 2}
+  SpatialSFXPrefab: {fileID: 8233008, guid: 4c2e4a37956147243b8a298dafe0cea1, type: 2}
+  musicClipsSerialize:
+  - name: BGM1
+    audioClip: {fileID: 8300000, guid: 81b096c94d6894645a7314ec0ef3bbe1, type: 3}
+  - name: BGM2
+    audioClip: {fileID: 8300000, guid: 48c95d96168a80e4287e543844a4fbb0, type: 3}
+  - name: bg1
+    audioClip: {fileID: 0}
+  - name: bg2
+    audioClip: {fileID: 0}
+  - name: bg3
+    audioClip: {fileID: 0}
+  SFXClipsSerialize:
+  - name: ButtonClick
+    audioClip: {fileID: 8300000, guid: 2cb88d84ace60df4a902a0fc65b0cea3, type: 3}
+  - name: Crown
+    audioClip: {fileID: 8300000, guid: b29db1822c732fc488a904954bd88842, type: 3}
+  - name: Flag
+    audioClip: {fileID: 8300000, guid: f58708cb3e2ee6f43925a2f8cbf001ec, type: 3}
+  - name: Lock
+    audioClip: {fileID: 8300000, guid: 96fb8d68862799247ba0ab752b4293f5, type: 3}
+  - name: Pillar
+    audioClip: {fileID: 8300000, guid: 6c3b5183af620e64b8f289069e29b46e, type: 3}
+  - name: GroundSpike
+    audioClip: {fileID: 8300000, guid: f909743a35901c24ab3a0330fdda0eda, type: 3}
+  - name: SelfDestruct
+    audioClip: {fileID: 8300000, guid: d224c69a70cfbe54cbdd41bc4b6d3120, type: 3}
+  - name: Coin
+    audioClip: {fileID: 8300000, guid: 24a3f9dca589912468ef92e3cfa080e8, type: 3}
+  - name: Cage
+    audioClip: {fileID: 8300000, guid: a604f33b22895824cbd1beba078d8a5a, type: 3}
+  - name: BoulderSpike
+    audioClip: {fileID: 8300000, guid: 3cd372dda3245364f823413e22119061, type: 3}
+  - name: Bed
+    audioClip: {fileID: 8300000, guid: 71b42ba33565c14489f9461941aa7714, type: 3}
+  - name: Door
+    audioClip: {fileID: 8300000, guid: cd1c07d78ef60904d870b711522e36a6, type: 3}
+  - name: WizardHat
+    audioClip: {fileID: 8300000, guid: a4f9773f615460f4a9f07419b07459f7, type: 3}
+  - name: 1
+    audioClip: {fileID: 8300000, guid: a93f54055a1bf414e95cddaf5ecfbb0e, type: 3}
+  - name: 2
+    audioClip: {fileID: 8300000, guid: 4b9b893afa6ec504e82b0a81f4ad6087, type: 3}
+  - name: 3
+    audioClip: {fileID: 8300000, guid: 7ddc320422da14e449ed3afd77862219, type: 3}
+  - name: 4
+    audioClip: {fileID: 8300000, guid: 561b423255d77644ba861a1b0e7ad209, type: 3}
+  - name: Levelup
+    audioClip: {fileID: 8300000, guid: 063737bc6d3050e448c91e6914371576, type: 3}
+  - name: exp1
+    audioClip: {fileID: 8300000, guid: e67349833fd3d1b48af5e4a31a714e5f, type: 3}
+  - name: Correct
+    audioClip: {fileID: 8300000, guid: bb3d440747108fc4abd8cd59429b83ec, type: 3}
+  - name: Step
+    audioClip: {fileID: 8300000, guid: 29231cb157062fc4cbeb2afc882fc7a5, type: 3}
+  - name: UIPop
+    audioClip: {fileID: 8300000, guid: ca0fed85a6f40a14da41a10f1c0fd8f2, type: 3}
+  - name: PillarDrop
+    audioClip: {fileID: 8300000, guid: ee991460a869bfc4fa4b60c2f8d68f21, type: 3}
+--- !u!114 &114656159491177330
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 114688}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68e66af1176b96f449c2286a361b0cff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
